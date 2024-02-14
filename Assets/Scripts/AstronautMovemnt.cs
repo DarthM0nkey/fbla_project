@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public float walkSpeed = 5f;
     public float runSpeed = 10f;
-    public float jumpForce = 5f;
+    public float jumpForce = 5.0f;
 
     private CharacterController characterController;
     private bool isGrounded;
@@ -20,7 +20,6 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         HandleMovement();
-        HandleJump();
     }
 
     void HandleMovement()
@@ -35,9 +34,13 @@ public class PlayerMovement : MonoBehaviour
         direction.y = 0f;
 
         // Move the player
+        
         if (characterController.isGrounded)
-        {
+        {            
             playerVelocity = direction * (Input.GetKey(KeyCode.LeftShift) ? runSpeed : walkSpeed);
+            // Handle the jump here so that the player velocity is updated
+            // by the characterController later on in this function
+            HandleJump();
         }
 
         playerVelocity.y += Physics.gravity.y * Time.deltaTime;
@@ -48,12 +51,11 @@ public class PlayerMovement : MonoBehaviour
 
     void HandleJump()
     {
-        if (isGrounded)
+        if (Input.GetButtonDown("Jump"))
         {
-            if (Input.GetButtonDown("Jump"))
-            {
-                playerVelocity.y = Mathf.Sqrt(jumpForce * -2f * Physics.gravity.y);
-            }
+            float jumpVelocity = Mathf.Sqrt(jumpForce * -2f * Physics.gravity.y);
+            Debug.Log("Player jumpying: " + jumpVelocity + " jf: " + jumpForce + " grav_y: " + Physics.gravity.y);
+            playerVelocity.y = jumpVelocity;
         }
     }
 
