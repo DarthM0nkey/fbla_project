@@ -24,14 +24,13 @@ public class playerLife : MonoBehaviour
         {
             GetComponent<MeshRenderer>().enabled = false;
             GetComponent<Rigidbody>().isKinematic = true;
-            GetComponent<Player_Movement>().enabled = false;
             Die();
         }
     }
     void Die()
     {
         
-        Invoke(nameof(ReloadLevel), 1.3f);
+        Invoke(nameof(ReloadLevel), 0.5f);
         dead = true;
         deathSound.Play();
       

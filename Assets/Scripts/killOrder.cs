@@ -16,8 +16,8 @@ public class killOrder : MonoBehaviour
         // Check if the collision is with an enemy object
         if (other.CompareTag("Enemy"))
         {
-                       // Destroy the enemy and the projectile
-            Destroy(other.gameObject);
+            // Destroy the enemy and the projectile
+            Destroy(other.transform.parent.gameObject);
             Destroy(gameObject);
         }
         else
