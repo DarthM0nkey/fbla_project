@@ -8,6 +8,8 @@ TagManager:
   - EnemyHead
   - Coin
   - Enemy
+  - gun
+  - Gun
   layers:
   - Default
   - TransparentFX

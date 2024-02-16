@@ -2,40 +2,35 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShootingScript : MonoBehaviour
+public class GunShoot : MonoBehaviour
 {
-    public GameObject projectilePrefab;
-    public Transform barrelTransform;
-    public float projectileSpeed = 10f;
+    public GameObject bulletPrefab;
+    public Transform bulletSpawnPoint;
+    public float bulletSpeed = 10f;
+    public float shootInterval = 0.5f;
+    public int numberOfBullets = 3;
+
+    private float nextShootTime;
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1")) // Change "Fire1" to your desired input
+        if (Input.GetButtonDown("Fire1") && Time.time > nextShootTime)
         {
-            ShootProjectile();
+            Shoot();
+            nextShootTime = Time.time + shootInterval;
         }
     }
 
-    void ShootProjectile()
+    void Shoot()
     {
-        // Instantiate the projectile prefab at the barrel position and rotation
-        GameObject projectile = Instantiate(projectilePrefab, barrelTransform.position, barrelTransform.rotation);
-
-        // Get the rigidbody of the projectile
-        Rigidbody projectileRb = projectile.GetComponent<Rigidbody>();
-
-        if (projectileRb != null)
+        for (int i = 0; i < numberOfBullets; i++)
         {
-            // Shoot the projectile in the forward direction of the barrel
-            projectileRb.velocity = barrelTransform.forward * projectileSpeed;
-        }
-        else
-        {
-            Debug.LogError("Projectile prefab is missing Rigidbody component!");
+            GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
+            Rigidbody bulletRb = bullet.GetComponent<Rigidbody>();
+            bulletRb.velocity = bulletSpawnPoint.forward * bulletSpeed;
 
+            // Optional: You can add additional logic or properties to the bullets here if needed.
         }
-  
     }
-
 }
 
