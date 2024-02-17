@@ -475,8 +475,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 52, y: 175}
-  m_SizeDelta: {x: 524.1967, y: 283.85}
+  m_AnchoredPosition: {x: 41, y: 175}
+  m_SizeDelta: {x: 805.8943, y: 283.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1587217445
 MonoBehaviour:
@@ -511,7 +511,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Super Bean
+  m_Text: Creature Carnage
 --- !u!222 &1587217446
 CanvasRenderer:
   m_ObjectHideFlags: 0

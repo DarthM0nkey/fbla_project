@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 2.unity
     guid: 724d94b935d502f4e82edd2357b89b8c
   - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: 876b3edf8b874e8408de97a3d70069b9
+  - enabled: 1
     path: Assets/Scenes/Challenge level screen.unity
     guid: 51f9d3bf02a554440b6e1064510a343f
   - enabled: 1

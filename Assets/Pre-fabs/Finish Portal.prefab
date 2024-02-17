@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 459936915068675235}
   - component: {fileID: 2872745652711811598}
   - component: {fileID: 5272110573519654360}
-  - component: {fileID: 2648577678149700523}
   m_Layer: 0
   m_Name: Finish Portal
   m_TagString: Untagged
@@ -106,15 +105,3 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2648577678149700523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6603644275046440558}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edd1f7f566696f348b8b45f97c5a0887, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

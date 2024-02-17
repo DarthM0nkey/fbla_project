@@ -193,7 +193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1419f7729cad2dc439de5d27c7526bcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRadius: 100
+  detectionRadius: 25
   followSpeed: 5
 --- !u!4 &6852914697053090633 stripped
 Transform:
