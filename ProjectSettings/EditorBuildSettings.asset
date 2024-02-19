@@ -9,20 +9,20 @@ EditorBuildSettings:
     path: Assets/Scenes/Start Screen.unity
     guid: c5b5d6442eedaf64a8c5b4dadac56a77
   - enabled: 1
+    path: Assets/Scenes/Level 0.unity
+    guid: 8c7e349384d02ea49a6936d966eb29a4
+  - enabled: 1
     path: Assets/Scenes/Level01.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/Level 2.unity
     guid: 724d94b935d502f4e82edd2357b89b8c
   - enabled: 1
-    path: Assets/Scenes/Level 3.unity
-    guid: 876b3edf8b874e8408de97a3d70069b9
-  - enabled: 1
-    path: Assets/Scenes/Challenge level screen.unity
+    path: Assets/Scenes/Boss Level.unity
     guid: 51f9d3bf02a554440b6e1064510a343f
   - enabled: 1
-    path: Assets/Scenes/Challenge level.unity
-    guid: d18d8feccf0350a4d85015902d93ef50
+    path: Assets/Scenes/Level 3.unity
+    guid: 876b3edf8b874e8408de97a3d70069b9
   - enabled: 1
     path: Assets/Scenes/endScreen.unity
     guid: e1ce47e348d78db469b612ad8bdf8be8

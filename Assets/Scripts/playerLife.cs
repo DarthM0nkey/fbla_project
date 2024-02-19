@@ -8,7 +8,7 @@ public class playerLife : MonoBehaviour
     bool dead = false;
 
     [SerializeField] AudioSource deathSound;
-
+  
     void Update()
     {
         if (transform.position.y < -30f && !dead)
@@ -16,7 +16,20 @@ public class playerLife : MonoBehaviour
             Die();
         }
     }  
-        
+    private void OnEnable()
+    {
+        EventManager.TimerStop += EventManagerOnTimerStop;
+    }
+    private void OnDisable()
+    {
+        EventManager.TimerStop -= EventManagerOnTimerStop;
+    }
+    private void EventManagerOnTimerStop()
+    {
+        Debug.Log("This is working");
+        Die();
+
+    }
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -27,6 +40,7 @@ public class playerLife : MonoBehaviour
             Die();
         }
     }
+     
     void Die()
     {
         
