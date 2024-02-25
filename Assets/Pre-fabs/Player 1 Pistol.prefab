@@ -119,7 +119,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8f9696fb6017be144a307b6586855ac0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.44000006
+      value: -0.412
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8f9696fb6017be144a307b6586855ac0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -127,7 +127,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8f9696fb6017be144a307b6586855ac0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.19
+      value: 1.378
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8f9696fb6017be144a307b6586855ac0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -231,8 +231,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 3461719159658685298, guid: 45ba844031e742048940263821aca7c2, type: 3}
   bulletSpawnPoint: {fileID: 7708232009797435994}
-  bulletSpeed: 10
-  shootInterval: 0.5
+  bulletSpeed: 20
+  shootInterval: 0.15
   numberOfBullets: 1
 --- !u!114 &6283683880495524626
 MonoBehaviour:
