@@ -179,7 +179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _timerType: 0
-  timeToDisplay: 60
+  timeToDisplay: 35
 --- !u!114 &134153384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1388,6 +1388,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef810214e07a50242895f20825210a21, type: 3}
+--- !u!82 &1767974362 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4932597373230312445, guid: aa83f92a9a441e84abde4a7d4ed1d96a, type: 3}
+  m_PrefabInstance: {fileID: 2039533876}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2039533876
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1440,6 +1445,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4932597373230312445, guid: aa83f92a9a441e84abde4a7d4ed1d96a, type: 3}
+      propertyPath: Priority
+      value: 136
+      objectReference: {fileID: 0}
+    - target: {fileID: 4932597373230312445, guid: aa83f92a9a441e84abde4a7d4ed1d96a, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 260fb2a1468ea7641979bfc9ca153e2b, type: 3}
+    - target: {fileID: 4932597373230312445, guid: aa83f92a9a441e84abde4a7d4ed1d96a, type: 3}
+      propertyPath: BypassEffects
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4932597373230312445, guid: aa83f92a9a441e84abde4a7d4ed1d96a, type: 3}
+      propertyPath: BypassListenerEffects
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618954245278296986, guid: aa83f92a9a441e84abde4a7d4ed1d96a, type: 3}
+      propertyPath: deathSound
+      value: 
+      objectReference: {fileID: 1767974362}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

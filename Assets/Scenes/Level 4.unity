@@ -677,6 +677,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1007502148332507223, guid: 2d1043fe06ab66d4ab5db2864e9e3ec9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 1007502148332507223, guid: 2d1043fe06ab66d4ab5db2864e9e3ec9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1007502148332507223, guid: 2d1043fe06ab66d4ab5db2864e9e3ec9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.36
+      objectReference: {fileID: 0}
     - target: {fileID: 7201247844054291200, guid: 2d1043fe06ab66d4ab5db2864e9e3ec9, type: 3}
       propertyPath: m_LocalScale.x
       value: 5.2106185
@@ -688,6 +700,18 @@ PrefabInstance:
     - target: {fileID: 8797177385580758838, guid: 2d1043fe06ab66d4ab5db2864e9e3ec9, type: 3}
       propertyPath: m_Name
       value: Smashing block
+      objectReference: {fileID: 0}
+    - target: {fileID: 8958020260528124479, guid: 2d1043fe06ab66d4ab5db2864e9e3ec9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 8958020260528124479, guid: 2d1043fe06ab66d4ab5db2864e9e3ec9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 8958020260528124479, guid: 2d1043fe06ab66d4ab5db2864e9e3ec9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.49
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1367,6 +1391,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1007502148332507223, guid: 2d1043fe06ab66d4ab5db2864e9e3ec9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 1007502148332507223, guid: 2d1043fe06ab66d4ab5db2864e9e3ec9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1007502148332507223, guid: 2d1043fe06ab66d4ab5db2864e9e3ec9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.39
+      objectReference: {fileID: 0}
     - target: {fileID: 7201247844054291200, guid: 2d1043fe06ab66d4ab5db2864e9e3ec9, type: 3}
       propertyPath: m_LocalScale.x
       value: 5.2106185
@@ -1378,6 +1414,18 @@ PrefabInstance:
     - target: {fileID: 8797177385580758838, guid: 2d1043fe06ab66d4ab5db2864e9e3ec9, type: 3}
       propertyPath: m_Name
       value: Smashing block (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8958020260528124479, guid: 2d1043fe06ab66d4ab5db2864e9e3ec9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8958020260528124479, guid: 2d1043fe06ab66d4ab5db2864e9e3ec9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 8958020260528124479, guid: 2d1043fe06ab66d4ab5db2864e9e3ec9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.51
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
