@@ -72,7 +72,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 764744078686779433, guid: efb4f33ec80663c408fd5dc5b40b468b, type: 3}
       propertyPath: m_Name
-      value: Player 1 Variant
+      value: Player 1 Shotgun
       objectReference: {fileID: 0}
     - target: {fileID: 1322038536213398003, guid: efb4f33ec80663c408fd5dc5b40b468b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -270,5 +270,5 @@ MonoBehaviour:
   bulletPrefab: {fileID: 3461719159658685298, guid: 45ba844031e742048940263821aca7c2, type: 3}
   bulletSpawnPoint: {fileID: 4343952856188379225}
   bulletSpeed: 50
-  shootInterval: 0.5
+  shootInterval: 0.6
   numberOfBullets: 1

@@ -61,7 +61,7 @@ public class PlayerMovement : MonoBehaviour
 
     void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        isGrounded = hit.normal.y > 0.9f;
+        isGrounded = hit.normal.y > 0.0f;
     }
 }
 

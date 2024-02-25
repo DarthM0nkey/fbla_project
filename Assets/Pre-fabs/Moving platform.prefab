@@ -148,6 +148,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3159771775121066100, guid: ef810214e07a50242895f20825210a21, type: 3}
+      propertyPath: m_Center.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3159771775121066100, guid: ef810214e07a50242895f20825210a21, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3962494092026322890, guid: ef810214e07a50242895f20825210a21, type: 3}
       propertyPath: m_Name
       value: Ground (3)
@@ -161,7 +169,7 @@ PrefabInstance:
       addedObject: {fileID: 2541997727409805259}
     - targetCorrespondingSourceObject: {fileID: 3962494092026322890, guid: ef810214e07a50242895f20825210a21, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 904216457699541606}
+      addedObject: {fileID: 6762366794803470772}
   m_SourcePrefab: {fileID: 100100000, guid: ef810214e07a50242895f20825210a21, type: 3}
 --- !u!1 &5187930309305436901 stripped
 GameObject:
@@ -184,7 +192,7 @@ MonoBehaviour:
   - {fileID: 5586628970856302023}
   - {fileID: 1671581443528768683}
   speed: 1
---- !u!114 &904216457699541606
+--- !u!114 &6762366794803470772
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

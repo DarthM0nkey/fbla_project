@@ -37,7 +37,7 @@ public class Timer : MonoBehaviour
    
     private void Update()
     {
-        Debug.Log("Hey dude" + _isRunning);
+        
         if (!_isRunning) return;
         if (_timerType == TimerType.Countdown && timeToDisplay < 0.0f)
         {

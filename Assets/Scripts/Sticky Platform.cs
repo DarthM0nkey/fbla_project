@@ -1,22 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class StickyPlatform : MonoBehaviour
 {
-   void OnCollisionEnter(Collision collision)
+   void OnCollisionEnter(Collision col)
     {
-        if (collision.gameObject.name == "Player")
+        Debug.Log("Collision Entered: \'" + col.gameObject.name + "\'");
+        if (col.gameObject.name == "Player")
         {
-            collision.gameObject.transform.SetParent(transform);
+            Debug.Log("Player Detected");
+            col.gameObject.transform.SetParent(transform);
         }
     }
 
-    void OnCollisionExit(Collision collision)
+    void OnCollisionExit(Collision col)
     {
-        if (collision.gameObject.name == "Player")
+        Debug.Log("Collision Exited");
+        if (col.gameObject.name == "Player")
         {
-            collision.gameObject.transform.SetParent(null);
+            Debug.Log("Player exited");
+            col.gameObject.transform.SetParent(null);
         }
     }
 
