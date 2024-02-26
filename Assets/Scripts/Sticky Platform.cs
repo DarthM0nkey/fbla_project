@@ -11,7 +11,13 @@ public class StickyPlatform : MonoBehaviour
         if (other.gameObject.name == "Player")
         {
             Debug.Log("Player Detected");
+            Vector3 new_scale = new Vector3(
+                other.gameObject.transform.localScale.x / transform.localScale.x,    
+                other.gameObject.transform.localScale.y / transform.localScale.y,
+                other.gameObject.transform.localScale.z / transform.localScale.z
+            );
             other.gameObject.transform.SetParent(transform);
+            other.gameObject.transform.localScale = new_scale;
         }
     }
 
@@ -21,7 +27,9 @@ public class StickyPlatform : MonoBehaviour
         if (other.gameObject.name == "Player")
         {
             Debug.Log("Player exited");
+            Vector3 new_scale = new Vector3(1, 1, 1);
             other.gameObject.transform.SetParent(null);
+            other.gameObject.transform.localScale = new_scale;
         }
     }
 
